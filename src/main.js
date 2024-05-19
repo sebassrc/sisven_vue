@@ -9,7 +9,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 
-// íconos para la biblioteca de Font Awesome
+
 library.add(faBank);
 library.add(faBuilding);
 library.add(faPencilAlt);
