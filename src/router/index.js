@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import pay_mode from '../views/pay_mode';
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/pay_mode',
+    name: 'pay_mode',
+    component: pay_mode
   },
   {
     path: '/about',
